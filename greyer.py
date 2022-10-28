@@ -2,10 +2,14 @@
 # pip install beautifulsoup4
 # pip install lxml
 
+#comment
 from bs4 import BeautifulSoup
 import requests, re
+first = input('Enter First Name: ')
+last = input('Enter Last Name: ')
+state = input('Enter state abbreviation: ')
 
-url = 'https://searchpeoplefree.com/find/brey-rivera/pa'
+url = 'https://searchpeoplefree.com/find/'+ first +'-'+ last + '/' + state
 
 response = requests.get(url)
 
