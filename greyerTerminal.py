@@ -1,11 +1,15 @@
+# ---- Workspace setup instructions: ----
 # pip install requests
 # pip install beautifulsoup4
 # pip install lxml
 
-from bs4 import BeautifulSoup
-import requests, re
+# ---- Running the program ----
+# python greyer.py
 
-url = 'https://searchpeoplefree.com/find/brey-rivera/pa'
+from bs4 import BeautifulSoup
+import requests, re, sys
+
+url = 'https://searchpeoplefree.com/find/paul-dahlman/ct'
 
 response = requests.get(url)
 
@@ -25,10 +29,3 @@ print(results['name'])
 print(results['age'])
 print(results['address'])
 print(results['phone'])
-
-
-# textContent = []
-# the_latest = soup.find_all("h3").text
-# textContent.append(the_latest)
-
-# pd.DataFrame(textContent)
