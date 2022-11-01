@@ -9,7 +9,11 @@
 from bs4 import BeautifulSoup
 import requests, re, sys
 
-url = 'https://searchpeoplefree.com/find/paul-dahlman/ct'
+first = input('Enter First Name: ')
+last = input('Enter Last Name: ')
+state = input('Enter state abbreviation: ')
+
+url = 'https://searchpeoplefree.com/find/'+ first +'-'+ last + '/' + state
 
 response = requests.get(url)
 
