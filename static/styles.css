@@ -1,3 +1,42 @@
 * {
-  background-color: antiquewhite;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  color: springgreen;
+  background-color: #0c2034;
+}
+
+input {
+  background-color: #0c2034;
+  color: springgreen;
+  border: 1px solid springgreen;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #0c2034;
+  color: springgreen;
+  border: 1px solid springgreen;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+p {
+  color: springgreen;
+  margin-top: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.title {
+  font-size: 35px;
+  margin-top: 35vh;
 }
