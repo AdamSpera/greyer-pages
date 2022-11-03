@@ -1,9 +1,12 @@
 # ---- Workspace setup instructions: ----
 # python3 -m venv greyer-env
 # greyer-env\scripts\activate
+# pip install re
+# pip install sys
+# pip install json
+# pip install lxml
 # pip install requests
 # pip install beautifulsoup4
-# pip install lxml
 # pip install flask
 
 # ---- Running the program ----
