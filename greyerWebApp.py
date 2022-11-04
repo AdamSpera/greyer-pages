@@ -13,6 +13,10 @@
 # greyer-env\scripts\activate
 # flask --app greyerWebApp run 
 
+# ---- Running the program on vm ----
+# export FLASK_APP=greyerWebApp.py
+# flask run --host=0.0.0.0
+
 from flask import Flask, request, render_template
 from bs4 import BeautifulSoup
 import requests, re, sys, json
