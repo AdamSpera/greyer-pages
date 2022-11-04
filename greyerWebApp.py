@@ -14,8 +14,9 @@
 # flask --app greyerWebApp run 
 
 # ---- Running the program on vm ----
+# sudo lsof -i -P -n | grep LISTEN
 # export FLASK_APP=greyerWebApp.py
-# flask run --host=0.0.0.0
+# sudo python3 greyerWebApp.py 
 
 from flask import Flask, request, render_template
 from bs4 import BeautifulSoup
@@ -46,3 +47,6 @@ def getData():
   }
 
   return results
+
+if __name__ == '__main__':
+  app.run(host="0.0.0.0", port=80)

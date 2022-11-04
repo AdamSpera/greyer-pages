@@ -29,6 +29,32 @@ button {
   padding-right: 15px;
 }
 
+button:hover {
+  background-color: rgb(1 234 117);
+  color: #0c2034;
+  border: 1px solid #0c2034;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+button:active {
+  background-color: #0c2034;
+  color: springgreen;
+  border: 1px solid springgreen;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 p {
   color: springgreen;
   margin-top: 22px;
