@@ -41,7 +41,7 @@ while (cont == 1):
     print()
     
     if count != 0:
-        previous = input('Do you want to get the previous search? ')
+        previous = input('Do you want to get the previous search? Enter yes/no:')
         if previous == 'yes':
             print()
             print(name.pop())
@@ -50,7 +50,7 @@ while (cont == 1):
             print(phone.pop())
             print()
     else:
-        cont = int(input('Enter a 1 to continue (anything else to quit): '))
+        cont = int(input('Enter 1 to continue (anything else to quit): '))
         name = []
         name.append(results['name']) 
         age = []
